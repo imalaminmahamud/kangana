@@ -1,0 +1,63 @@
+version: '3'
+services:
+#  nginx:
+#    container_name: EVERYTHING_NGINX
+#    image: nginx:latest
+#    ports:
+#      - "8000:8000"
+#    volumes:
+#    - "./everything:/everything"
+#    # nginx configs
+#    - "./config/nginx/nginx.conf:/etc/nginx/nginx.conf:ro"
+#    - "./config/nginx/conf.d/:/etc/nginx/conf.d/:ro"
+#    - "./config/nginx/.htpasswd:/etc/nginx/.htpasswd:ro"
+#    depends_on:
+#      - api
+  postgres:
+    container_name: EVERYTHING_CORE_DB
+    image: postgres
+    environment:
+     - POSTGRES_USER=postgres
+     - POSTGRES_PASSWORD=postgres
+  redis:
+    container_name: EVERYTHING_CORE_REDIS
+    image: redis:alpine
+    ports:
+      - "6379"    
+  web:
+    container_name: EVERYTHING_CORE_WEB
+    build: ./everything/web
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && gunicorn api.wsgi -b 0.0.0.0:8000"
+    volumes:
+      - ./everything/web:/app
+    ports:
+      - "8001:8000"
+    depends_on:
+      - api
+      - redis
+    env_file:
+      - "./everything/web/.env"     
+  api:
+    container_name: EVERYTHING_CORE_API
+    build: ./everything/api
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && gunicorn api.wsgi -b 0.0.0.0:8000"
+    volumes:
+      - ./everything/api:/app
+    ports:
+      - "8002:8000"
+    depends_on:
+      - postgres
+    env_file:
+      - "./everything/api/.env"
+  admin:
+    container_name: EVERYTHING_CORE_ADMIN
+    build: ./everything/admin
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && gunicorn api.wsgi -b 0.0.0.0:8000"
+    volumes:
+      - ./everything/admin:/app
+    ports:
+      - "8003:8000"
+    depends_on:
+      - api
+    env_file:
+      - "./everything/admin/.env"
