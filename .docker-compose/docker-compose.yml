@@ -1,18 +1,18 @@
 version: '3'
 services:
-#  nginx:
-#    container_name: EVERYTHING_NGINX
-#    image: nginx:latest
-#    ports:
-#      - "8000:8000"
-#    volumes:
-#    - "./everything:/everything"
-#    # nginx configs
-#    - "./config/nginx/nginx.conf:/etc/nginx/nginx.conf:ro"
-#    - "./config/nginx/conf.d/:/etc/nginx/conf.d/:ro"
-#    - "./config/nginx/.htpasswd:/etc/nginx/.htpasswd:ro"
-#    depends_on:
-#      - api
+  nginx:
+    container_name: EVERYTHING_NGINX
+    image: nginx:latest
+    ports:
+      - "8000:8000"
+    volumes:
+    - "./microservices:/microservices"
+    # nginx configs
+    - "./config/nginx/nginx.conf:/etc/nginx/nginx.conf:ro"
+    - "./config/nginx/conf.d/:/etc/nginx/conf.d/:ro"
+    - "./config/nginx/.htpasswd:/etc/nginx/.htpasswd:ro"
+    depends_on:
+      - api
   postgres:
     container_name: EVERYTHING_CORE_DB
     image: postgres
@@ -26,38 +26,38 @@ services:
       - "6379"    
   web:
     container_name: EVERYTHING_CORE_WEB
-    build: ./everything/web
+    build: microservices/web
     command: bash -c "python manage.py makemigrations && python manage.py migrate && gunicorn api.wsgi -b 0.0.0.0:8000"
     volumes:
-      - ./everything/web:/app
+      - ./microservices/web:/app
     ports:
       - "8001:8000"
     depends_on:
       - api
       - redis
     env_file:
-      - "./everything/web/.env"     
+      - "./microservices/web/.env"
   api:
     container_name: EVERYTHING_CORE_API
-    build: ./everything/api
+    build: microservices/api
     command: bash -c "python manage.py makemigrations && python manage.py migrate && gunicorn api.wsgi -b 0.0.0.0:8000"
     volumes:
-      - ./everything/api:/app
+      - ./microservices/api:/app
     ports:
       - "8002:8000"
     depends_on:
       - postgres
     env_file:
-      - "./everything/api/.env"
+      - "./microservices/api/.env"
   admin:
     container_name: EVERYTHING_CORE_ADMIN
-    build: ./everything/admin
+    build: microservices/admin
     command: bash -c "python manage.py makemigrations && python manage.py migrate && gunicorn api.wsgi -b 0.0.0.0:8000"
     volumes:
-      - ./everything/admin:/app
+      - ./microservices/admin:/app
     ports:
       - "8003:8000"
     depends_on:
       - api
     env_file:
-      - "./everything/admin/.env"
+      - "./microservices/admin/.env"

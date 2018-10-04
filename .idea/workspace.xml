@@ -2,42 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20c4c7d-0333-4648-83bf-2653a395d677" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HISTORY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/architecture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/conf.d/admin.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/conf.d/api.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/conf.d/web.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/admin/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/admin/admin/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/admin/admin/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/admin/admin/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/admin/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/admin/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/api/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/api/api/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/api/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/api/api/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/api/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/api/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/web/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/web/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/web/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/web/web/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/web/web/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/web/web/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/everything/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/everything/web/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/everything/admin/admin/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/api/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/everything/api/api/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/backoffice/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/everything/web/web/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/celeryconf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/web/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/conf.d/admin.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.nginx.conf/conf.d/admin.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/conf.d/api.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.nginx.conf/conf.d/api.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/conf.d/web.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.nginx.conf/conf.d/web.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.nginx.conf/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.docker-compose/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/admin/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/admin/admin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/admin/admin/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/admin/admin/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/admin/admin/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/admin/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/admin/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/api/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/api/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/api/api/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/api/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/api/api/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/api/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/api/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/web/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/web/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/web/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/web/web/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/web/web/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/web/web/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/web/web/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,37 +43,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="HISTORY.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HISTORY.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="36">
-                <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+              <first_editor relative-caret-position="54">
+                <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="96" selection-start-line="96" selection-end-line="97" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="522">
+                <caret line="29" selection-start-line="29" selection-end-line="29" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/everything/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-813" />
+            <state relative-caret-position="126">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/everything/api/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/everything/web/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/everything/web/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/everything/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.docker-compose/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="architecture.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/architecture.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -99,24 +150,28 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/everything/__init__.py" />
         <option value="$PROJECT_DIR$/everything/celeryconf.py" />
-        <option value="$PROJECT_DIR$/everything/settings.py" />
         <option value="$PROJECT_DIR$/.circleci/config.yml.py" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/docker-compose.yaml" />
-        <option value="$PROJECT_DIR$/HISTORY.md" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/everything/api/requirements.txt" />
         <option value="$PROJECT_DIR$/everything/admin/requirements.txt" />
         <option value="$PROJECT_DIR$/everything/web/requirements.txt" />
         <option value="$PROJECT_DIR$/everything/api/api/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/HISTORY.md" />
+        <option value="$PROJECT_DIR$/everything/urls.py" />
+        <option value="$PROJECT_DIR$/everything/settings.py" />
+        <option value="$PROJECT_DIR$/everything/api/urls.py" />
+        <option value="$PROJECT_DIR$/everything/web/views.py" />
+        <option value="$PROJECT_DIR$/everything/web/urls.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="681" />
     <option name="y" value="-24" />
-    <option name="width" value="1370" />
+    <option name="width" value="687" />
     <option name="height" value="794" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -148,11 +203,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/everything/api" />
+      <recent name="$PROJECT_DIR$/everything/web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.docker-compose" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/monolithic/monolithic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,105 +251,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="681" y="-24" width="1370" height="794" extended-state="0" />
+    <frame x="681" y="-24" width="687" height="794" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24609666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30513597" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884902" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50111526" side_tool="true" weight="0.33385092" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49888477" weight="0.32919255" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.7186046" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32934132" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.7200599" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19760479" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49888477" visible="true" weight="0.33383232" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="522">
-            <caret line="29" selection-start-line="29" selection-end-line="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/everything/lib/python3.6/site-packages/django/apps/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/everything/lib/python3.6/site-packages/django/apps/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="522">
-            <caret line="29" selection-start-line="29" selection-end-line="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/everything/lib/python3.6/site-packages/django/apps/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/everything/lib/python3.6/site-packages/django/apps/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="522">
-            <caret line="29" selection-start-line="29" selection-end-line="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/everything/lib/python3.6/site-packages/django/apps/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/everything/lib/python3.6/site-packages/django/apps/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="522">
-            <caret line="29" selection-start-line="29" selection-end-line="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/everything/__init__.py" />
     <entry file="file://$PROJECT_DIR$/everything/celeryconf.py" />
     <entry file="file://$PROJECT_DIR$/everything/settings.py" />
@@ -389,8 +377,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/everything/celeryconf.py" />
     <entry file="file://$PROJECT_DIR$/everything/api/core/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/everything/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/everything/settings.py" />
+    <entry file="file://$PROJECT_DIR$/docker-compose.yaml" />
+    <entry file="file://$PROJECT_DIR$/microservices/api/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/microservices/admin/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/microservices/web/manage.py" />
+    <entry file="file://$PROJECT_DIR$/microservices/web/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/microservices/api/manage.py" />
+    <entry file="file://$PROJECT_DIR$/microservices/api/api/settings.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="96" selection-start-line="96" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/admin/.env" />
+    <entry file="file://$PROJECT_DIR$/microservices/api/.env" />
+    <entry file="file://$PROJECT_DIR$/monolithic/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/monolithic/settings.py" />
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monolithic2/manage.py" />
+    <entry file="file://$PROJECT_DIR$/architecture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/.docker-compose/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HISTORY.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -401,65 +430,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yaml" />
-    <entry file="file://$PROJECT_DIR$/everything/api/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/everything/admin/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/everything/web/manage.py">
+    <entry file="file://$PROJECT_DIR$/everything/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/everything/web/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/everything/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/everything/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/everything/api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/everything/api/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/everything/api/api/settings.py">
+    <entry file="file://$PROJECT_DIR$/everything/web/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="72">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HISTORY.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="36">
-            <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/everything/web/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="96" selection-start-line="96" selection-end-line="97" />
+        <state relative-caret-position="54">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-813" />
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
