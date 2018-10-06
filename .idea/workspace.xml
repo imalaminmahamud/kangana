@@ -2,37 +2,450 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a20c4c7d-0333-4648-83bf-2653a395d677" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/everything/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/everything/web/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.codeclimate.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flowconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/badges/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gqlconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pylintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tx/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/DEPLOYMENT_NOTES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/elasticbeanstalk/Dockerrun.aws.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/events.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/gdpr.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/graphql.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/i18n.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/money.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/orders.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/page.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/payments.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/products.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/search.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/settings.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/shippings.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/stock.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/thumbnails.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architecture/translations.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributing.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributing/coding-style.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributing/editorconfig.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributing/naming.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/customization.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/customization/backend.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/customization/ci.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/customization/docker.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/customization/emails.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/customization/frontend.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/customization/i18n.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/customization/pypy.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/customization/templates.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/customization/tests.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/deployment.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/deployment/docker.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/deployment/heroku.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/deployment/s3.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/gettingstarted.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/gettingstarted/configuration.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/gettingstarted/dev-tools.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/gettingstarted/example-data.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/gettingstarted/installation-linux.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/gettingstarted/installation-macos.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/gettingstarted/installation-windows.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/gettingstarted/superuser.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guides.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guides/email_integration.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guides/navigation.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guides/orders.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guides/recaptcha.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guides/taxes.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/product_class_tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/integrations.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/integrations/elasticsearch.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/integrations/emailmarkup.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/integrations/googleanalytics.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/integrations/googleforretail.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/integrations/openexchangerates.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/integrations/sentry.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/integrations/seo.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/integrations/smo.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/everything/celeryconf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/bg_BG/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/bg_BG/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/bn/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/cs/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/de/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/de/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/en/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/es/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/es/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/fa_IR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/fa_IR/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/fr/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/hu/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/it/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/it/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/ja/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/nb/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/nb/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/nl/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/pl/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/pt_BR/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/ro/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/sk/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/tr/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/uk/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/uk/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/zh_TW/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/zh_TW/LC_MESSAGES/djangojs.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements_dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/deploy_master.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/push_static.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/_language_picker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/_language_picker_modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/account_delete_prompt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/address_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/address_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/partials/already_logged_in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/partials/login_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/password_change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_from_key.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_from_key_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/snippets/address_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/snippets/datalist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/snippets/phone_prefix_widget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cart_dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/category/filters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/category/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/_subtotal_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/shipping_address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/shipping_method.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/snippets/addresses_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/snippets/addresses_form_panel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/snippets/voucher_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/checkout/summary_without_shipping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collection/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/base_modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/base_zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/category/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/category/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/category/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/category/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/collection/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/collection/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/collection/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/collection/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/customer/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/customer/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/customer/modal/add_note.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/customer/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/customer/modal/confirm_promote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/customer/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/discount/sale/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/discount/sale/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/discount/sale/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/discount/sale/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/discount/voucher/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/discount/voucher/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/discount/voucher/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/discount/voucher/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/includes/_address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/includes/_back_link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/includes/_bulk_actions_bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/includes/_collection_availability.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/includes/_filters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/includes/_google_preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/includes/_menu_items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/includes/_page_availability.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/includes/_pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/includes/_sorting_header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/menu/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/menu/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/menu/item/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/menu/item/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/menu/item/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/menu/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/menu/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/menu/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/next.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/address_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/fulfillment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/add_note.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/add_variant_to_order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/cancel_fulfillment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/cancel_line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/cancel_order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/capture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/change_quantity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/create_order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/edit_customer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/edit_discount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/edit_shipping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/edit_voucher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/fulfillment_tracking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/mark_as_paid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/refund.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/release.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/remove_order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/pdf/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/pdf/packing_slip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/widget/phone_prefix_widget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/order/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/page/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/page/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/page/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/page/modal_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/page/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/attribute/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/attribute/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/attribute/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/attribute/modal/attribute_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/attribute/values/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/attribute/values/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/attribute/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/modal/select_type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_image/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_image/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_image/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_image/versatile_image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_type/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_type/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_type/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_type/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_variant/_image_select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_variant/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_variant/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_variant/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/product_variant/modal/select_images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/product/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/search/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/shipping/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/shipping/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/shipping/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/shipping/methods/_shipping_methods_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/shipping/methods/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/shipping/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/shipping/modal/method_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/shipping/weight_widget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/shipping/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/sites/authorization_keys/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/sites/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/sites/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/sites/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/staff/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/staff/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/staff/modal/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/staff/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/styleguide/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/taxes/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/taxes/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/taxes/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/taxes/zero_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/favicon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/formatted_address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/materializecssform/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/materializecssform/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/materializecssform/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/materializecssform/formset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/_ordered_items_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/checkout_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/checkout_success_anonymous.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/payment/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/payment/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/page/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/payments/credit_card_expiry_widget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/price.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/prices/widget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/_filters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/_items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/_price_range.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/product_list_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/search/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/status_label.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/styleguide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/account/account_delete.email" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/account/password_reset.email" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/compiled/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/dashboard/staff/promote_customer.email" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/dashboard/staff/set_password.email" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/order/confirm_fulfillment.email" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/order/confirm_order.email" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/order/note/confirm_note.email" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/order/payment/confirm_payment.email" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/order/update_fulfillment.email" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/account_delete.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/confirm_fulfillment.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/confirm_note.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/confirm_order.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/confirm_payment.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/partials/_fulfillment_lines.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/partials/_order_lines.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/password_reset.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/promote_customer.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/set_password.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/shared/footer.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/shared/header.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/shared/styles.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/templated_email/source/update_fulfillment.mjml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/weight_field_widget.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_attributes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_base_mutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_discount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_fulfillment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_graphql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_shipping_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_shop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_variant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/cassettes/test_dashboard_search_orders_by_user.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/cassettes/test_dashboard_search_user_by_email.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/cassettes/test_dashboard_search_user_name.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/cassettes/test_dashboard_search_with_empty_results.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/cassettes/test_dashboard_search_with_product_result.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/cassettes/test_new_search_doesnt_show_unpublished.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/cassettes/test_new_search_with_empty_results.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/cassettes/test_new_search_with_result.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_chips.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_customer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_discounts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_shipping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_site_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_staff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_taxes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_templatetags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_analytics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_asynchronous_tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_cart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_checkout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_data_feeds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_discounts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_elasticsearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_emails.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_impersonation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_payment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_postgresql_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_product_attributes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_product_availability.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_product_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_seo_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_shipping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_sitemap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_templatetags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_translation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/conf.d/admin.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.nginx.conf/conf.d/admin.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/conf.d/api.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.nginx.conf/conf.d/api.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/conf.d/web.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.nginx.conf/conf.d/web.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.nginx.conf/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.docker-compose/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/admin/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/admin/admin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/admin/admin/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/admin/admin/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/admin/admin/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/admin/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/admin/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/api/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/api/api/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/api/api/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/api/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/api/api/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/api/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/api/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/web/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/web/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/web/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/web/web/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/web/web/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/web/web/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/everything/web/web/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everything/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/everything/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,30 +456,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HISTORY.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HISTORY.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="522">
-                <caret line="29" selection-start-line="29" selection-end-line="29" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/everything/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,11 +486,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/everything/web/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -109,27 +498,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/everything/settings.py">
+      <file leaf-file-name="config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.tx/config">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerrun.aws.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deployment/elasticbeanstalk/Dockerrun.aws.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name=".codeclimate.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.codeclimate.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/everything/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="72">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.docker-compose/docker-compose.yml">
+      <file leaf-file-name="celeryconf.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/everything/celeryconf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="54">
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="architecture.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/architecture.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name=".nvmrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.nvmrc">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -148,8 +552,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/everything/__init__.py" />
-        <option value="$PROJECT_DIR$/everything/celeryconf.py" />
         <option value="$PROJECT_DIR$/.circleci/config.yml.py" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/docker-compose.yaml" />
@@ -165,6 +567,8 @@
         <option value="$PROJECT_DIR$/everything/api/urls.py" />
         <option value="$PROJECT_DIR$/everything/web/views.py" />
         <option value="$PROJECT_DIR$/everything/web/urls.py" />
+        <option value="$PROJECT_DIR$/everything/__init__.py" />
+        <option value="$PROJECT_DIR$/everything/celeryconf.py" />
       </list>
     </option>
   </component>
@@ -202,18 +606,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="keymap&#9;ACTION&#9;ChangeKeymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/everything/api" />
-      <recent name="$PROJECT_DIR$/everything/web" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.docker-compose" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/monolithic/monolithic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/everything" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/everything/api" />
+      <recent name="$PROJECT_DIR$/everything/web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -253,17 +660,17 @@
   <component name="ToolWindowManager">
     <frame x="681" y="-24" width="687" height="794" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30513597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19033232" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884902" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50111526" side_tool="true" weight="0.33385092" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49888477" weight="0.32919255" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.7186046" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49888477" visible="true" weight="0.33383232" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -277,15 +684,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/everything/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/everything/celeryconf.py" />
-    <entry file="file://$PROJECT_DIR$/everything/settings.py" />
-    <entry file="file://$USER_HOME$/.virtualenvs/everything/lib/python3.6/site-packages/django/contrib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/everything/lib/python3.6/site-packages/django/contrib/messages/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/everything/lib/python3.6/site-packages/django/contrib/messages/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -375,7 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/everything/celeryconf.py" />
     <entry file="file://$PROJECT_DIR$/everything/api/core/__init__.py" />
     <entry file="file://$PROJECT_DIR$/docker-compose.yaml" />
     <entry file="file://$PROJECT_DIR$/microservices/api/requirements.txt" />
@@ -405,7 +802,7 @@
     <entry file="file://$PROJECT_DIR$/__init__.py" />
     <entry file="file://$PROJECT_DIR$/.docker-compose/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state>
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
@@ -429,9 +826,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/everything/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/everything/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -464,13 +858,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.github/badges/twitter.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/everything/web/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.tx/config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment/elasticbeanstalk/Dockerrun.aws.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.nvmrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.codeclimate.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/everything/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/everything/celeryconf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>

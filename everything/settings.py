@@ -1,11 +1,8 @@
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 SECRET_KEY = 'a3n*-zqr)hsutp6$2l7kkq$*yg4&+ox5lsc$f!#q5n(_-(5nom'
-
 DEBUG = True
-
 ALLOWED_HOSTS = []
 
 BUILT_IN_APPS = [
@@ -16,9 +13,7 @@ BUILT_IN_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-
 THIRD_PARTY_APPS = []
-
 INTERNAL_APPS = [
     'api',
     'web'
@@ -45,7 +40,7 @@ TEMPLATES = [
         'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
-             'context_processors': [
+            'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
@@ -66,31 +61,27 @@ DATABASES = {
 }
 
 
+PASSWORD_VALIDATION = 'django.contrib.auth.password_validation'
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': PASSWORD_VALIDATION + '.' + 'UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': PASSWORD_VALIDATION + '.' + 'MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': PASSWORD_VALIDATION + '.' + 'CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': PASSWORD_VALIDATION + '.' + 'NumericPasswordValidator',
     },
 ]
 
 
 LANGUAGE_CODE = 'en-us'
-
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
-
 USE_L10N = True
-
 USE_TZ = True
-
 
 STATIC_URL = '/static/'
