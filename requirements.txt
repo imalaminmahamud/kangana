@@ -8,7 +8,7 @@ boto3==1.9.13
 botocore==1.12.13
 braintree==3.48.0
 cairocffi==0.9.0
-cairosvg==2.2.1; python_version >= '3.0'
+cairosvg==2.5.1; python_version >= '3.0'
 celery==4.2.1
 certifi==2018.8.24
 cffi==1.11.5
