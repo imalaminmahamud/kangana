@@ -70,7 +70,7 @@ oauthlib==2.1.0
 pdfrw==0.4
 phonenumbers==8.9.14
 phonenumberslite==8.9.14
-pillow==5.2.0
+pillow==8.2.0
 prices==1.0.0
 promise==2.1
 psycopg2-binary==2.7.5
