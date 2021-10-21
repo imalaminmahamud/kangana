@@ -1,7 +1,7 @@
 amqp==2.3.2
 aniso8601==3.0.2
 asn1crypto==0.24.0
-babel==2.6.0
+babel==2.9.1
 billiard==3.5.0.4
 bleach==2.1.4
 boto3==1.9.13
